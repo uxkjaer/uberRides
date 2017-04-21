@@ -1,0 +1,45 @@
+{
+    "resources": [
+        {
+            "name": "view/uberLogin.fragment.xml"
+        },
+        {
+            "name": "view/View1.view.xml"
+        },
+        {
+            "name": "util/jso.js"
+        },
+        {
+            "name": "util/uber.js"
+        },
+        {
+            "name": "css/style.css"
+        },
+        {
+            "name": "manifest.json"
+        },
+        {
+            "name": "i18n/i18n.properties",
+            "raw": "i18n/i18n.properties"
+        },
+        {
+            "name": "controller/View1.controller.js"
+        },
+        {
+            "name": "index.html"
+        },
+        {
+            "name": "Component.js"
+        },
+        {
+            "name": "model/models.js"
+        },
+        {
+            "name": "Component-preload.js",
+            "merged": true
+        },
+        {
+            "name": "neo-app.json"
+        }
+    ]
+}

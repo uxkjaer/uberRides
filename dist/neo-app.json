@@ -1,0 +1,49 @@
+{
+	"welcomeFile": "/index.html",
+	"routes": [{
+		"path": "/resources",
+		"target": {
+			"type": "service",
+			"name": "sapui5",
+			"entryPath": "/resources",
+			"version": "1.44.11"
+		},
+		"description": "SAPUI5 Resources"
+	}, {
+		"path": "/test-resources",
+		"target": {
+			"type": "service",
+			"name": "sapui5",
+			"entryPath": "/test-resources",
+			"version": "1.44.11"
+		},
+		"description": "SAPUI5 Test Resources"
+	}, {
+		"path": "/Uber_Login",
+		"target": {
+			"type": "destination",
+			"name": "Uber_Login"
+		},
+		"description": "Destination to Uber login service"
+	}, {
+		"path": "/Uber_Api",
+		"target": {
+			"type": "destination",
+			"name": "Uber_Api"
+		},
+		"description": "Destination to Uber login service"
+	}],
+	"sendWelcomeFileRedirect": true,
+	"cacheControl": [{
+		"directive": "private",
+		"maxAge": 0,
+		"path": "**.html"
+	}, {
+		"directive": "private",
+		"maxAge": 0,
+		"path": "sap-ui-cachebuster-info.json"
+	}, {
+		"directive": "public",
+		"maxAge": 31536000
+	}]
+}
